@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    height: 651px;
+    width: 100%;
+    background-color: #101417;
+    display: block;
+    position: fixed;
+    
+}
+.container{
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bag_text{
+    bottom: 130px;
+    position: fixed;
+    height: 100px;
+    font-size: 19.4ch;
+    font-weight: bolder;
+    width: 100%;
+    }
+.content{
+    width: 370px;
+    height: 350px ;
+}
+.content img{
+    height: 70px;
+    width: 180px;
+}
+.content div{
+    position: relative;
+    left: 50px;
+}
+.content div h1{
+    color:rgba(245, 245, 220, 0.568);
+    font-size: 5.5ch;
+    font-weight: 700;
+}
+.content div p{
+    width: 250px;
+    color:#F5F5F5;
+    font-size: 3.2ch;
+    font-weight: 400;
+    height: 170px;
+    padding-bottom: 10px;
+}
+.homebutton{
+    width: 200px;
+    height: 32px;
+    background-color: #101417;
+    border-radius: 20px;
+    border: 1px solid #F5F5F5;
+    color: #F5F5F5;
+    font-size: 1.5ch;
+    cursor: pointer;
+}
+.homebutton:hover{
+    cursor: pointer;
+    background-color: #F5F5F5;
+    color: black;
+}
+.photo{
+    height: 500px;
+    width: 500px;
+}
+.photo img{
+    height: 550px;
+    width: 550px;  
+}
+.page{
+    display: flex;
+    justify-content: end;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 300px;
+    height: 651px;
+    border-radius: 9px;
+    background-color: #F5F5F5;
+    position: relative;
+    z-index: +99;
+    padding: 20px;
+    padding-left: 20px;
+
+}
+.sidebar_content h2{
+    font-size: 4ch;
+    cursor: pointer;
+}
+.sidebar_content p{
+    font-size: 2.9ch;
+    color: #101417a1;
+    font-weight: 650;
+}
+.sidebar_content button{
+    width: 250px;
+    height: 32px;
+    border:1px solid #101417;
+    margin-left: 10px;
+    border-radius: 20px;
+   cursor: pointer;
+}
+.empty{
+    height:651px ;
+    position: relative;
+    z-index: +99;
+    width: 1060px;
+    background-color: #101417bb;
+}
+#b1{
+    background-color: #56C123;
+    width: 250px;
+    height: 32px;
+    border:1px solid #101417;
+    margin-left: 10px;
+    border-radius: 20px;
+   cursor: pointer;
+}
+#flag{
+    height: 15px;
+    width: 15px;
+    
+}
+select{
+    border: none;
+    width: 50px;
+    font-size: 1.4ch;
+    background-color: transparent;
+    
+}
+
+.textfield{
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    left: 10px;
+    
+}
+#standard-basic{
+    text-decoration: none;
+}
+
